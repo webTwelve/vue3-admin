@@ -5,7 +5,7 @@ module.exports = {
   },
   globals: {
     window: true,
-    module: true
+    module: true,
   },
   extends: [
     'eslint:recommended',
@@ -22,6 +22,10 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
   rules: {
     'vue/multi-word-component-names': 'off',
-    '@typescript-eslint/no-explicit-any': ['off']
+    '@typescript-eslint/no-explicit-any': ['off'],
+    '@typescript-eslint/no-var-requires': 0,
+    'no-var': 2,
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error']
   }
 }

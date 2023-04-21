@@ -40,7 +40,7 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive } from 'vue'
+import { reactive, ref } from 'vue'
 const form = reactive({
   name: ''
 })

@@ -12,6 +12,7 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
+    "types": ["node"],
     "paths": {
       "@/*": ["./src/*"] // 路径映射，相对于baseUrl
     }
