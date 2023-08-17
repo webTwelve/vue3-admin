@@ -12,6 +12,10 @@ yarn run dev
 yarn run build
 ```
 
+## 我不会用yarn~
+
+点这里:https://www.5axxw.com/wiki/content/ys3l9j
+
 ## commit 提交规范
 
 | Type     | 作用                                                                                   |
