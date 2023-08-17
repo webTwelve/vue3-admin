@@ -1,6 +1,5 @@
 <template>
   <div class="login">
-    <div class="login-title">后台管理系统</div>
     <el-tabs type="border-card" class="demo-tabs" v-model="loginType">
       <el-tab-pane name="account">
         <template #label>
@@ -85,9 +84,13 @@ const handleLoginClick = () => {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 30px;
 }
 
 .demo-tabs {
-  margin-top: 20px;
+  transform: translate(0, 50%);
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 16px;
 }
 </style>
