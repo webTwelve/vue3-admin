@@ -1,5 +1,5 @@
-const os = require('os')
-const cp = require('child_process')
+import os from 'os'
+import cp from 'child_process'
 
 if (os.type() == 'Darwin') {
   //mac
