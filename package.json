@@ -12,7 +12,7 @@
     "lintall": "eslint src -fix",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "prepare": "husky install & node ./pre-commit.ts",
-    "pre-lint": "npm run prettier & npm run lint"
+    "pre-lint": "yarn run prettier & yarn run lint"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.9",

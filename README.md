@@ -1,3 +1,17 @@
+## 安装步骤
+
+```tex
+git clone https://github.com/webTwelve/vue3-ts-vite.git      // 把模板下载到本地
+npm install -g yarn
+yarn       // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 npm
+
+// 运行
+yarn run dev
+
+// 执行构建命令，生成的dist文件夹放在服务器下即可访问
+yarn run build
+```
+
 ## commit 提交规范
 
 | Type     | 作用                                                                                   |
